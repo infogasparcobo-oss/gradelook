@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 6-11: solo el contador de exportaciones gratis entra en la copia de seguridad (no el plan ni nada más). -->
+<full-backup-content>
+    <include domain="sharedpref" path="gradelook_free.xml" />
+</full-backup-content>

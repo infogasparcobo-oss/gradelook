@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 12+: copia en la nube y transferencia entre móviles solo del contador gratis. El plan NO se respalda. -->
+<data-extraction-rules>
+    <cloud-backup>
+        <include domain="sharedpref" path="gradelook_free.xml" />
+    </cloud-backup>
+    <device-transfer>
+        <include domain="sharedpref" path="gradelook_free.xml" />
+    </device-transfer>
+</data-extraction-rules>

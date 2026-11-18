@@ -1,0 +1,17 @@
+.gradle/
+.kotlin/
+build/
+**/build/
+local.properties
+*.iml
+.idea/
+
+# Secretos y claves: NUNCA publicar
+keystore/
+keystore.properties
+*.jks
+*.keystore
+
+# Servidor privado (no forma parte del código distribuido) y materiales de la tienda
+backend/
+store/
