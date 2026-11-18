@@ -14,7 +14,7 @@ android {
         applicationId = "com.gradelook.app"
         minSdk = 29
         targetSdk = 36
-        versionCode = 3
+        versionCode = 4
         versionName = "1.0"
         // Solo ARM de 64 bits (todos los móviles actuales); ahorra ~15 MB de x86_64 de FFmpeg.
         ndk { abiFilters += "arm64-v8a" }
